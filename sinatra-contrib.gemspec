@@ -189,7 +189,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "sinatra",   "~> 1.4.0"
   s.add_dependency "backports", ">= 2.0"
-  s.add_dependency "tilt",      ">= 1.3", "< 3"
+  s.add_dependency "tilt"
   s.add_dependency "rack-test"
   s.add_dependency "rack-protection"
   s.add_dependency "multi_json"
